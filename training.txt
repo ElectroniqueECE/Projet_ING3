@@ -1,4 +1,4 @@
-// 50 Rouge puis 50 Bleu
+// Le dataset d'entrainement est constitué de 100 tableaux de 48 frames de 13 MFCCs. Les 50 premiers tableaux ( 48*13 ) representent les MCCs associés à 50 enregistrements du mot "Rouge" puis les 50 suivants, à 50 enregistrements du mot "Bleu"
 const float inputs[100][48][13] = 
 { 
   { 
