@@ -1,9 +1,6 @@
-
-// 5 Rouge puis 5 Bleu
+// Le dataset de test est constitué de 10 tableaux de 48 frames de 13 MFCCs. Les 5 premiers tableaux ( 48*13 ) representent les MCCs associé à un enregistrement du mot "Rouge" puis les 5 suivant, du mot "Bleu" 
 const float testData[10][48][13] = 
 {
-  
-  // RED
   { 
   {0.211, 0.251, 0.261, 0.296, 0.321, 0.326, 0.344, 0.343, 0.359, 0.361, 0.369, 0.373, 0.384},
   {0.201, 0.249, 0.295, 0.307, 0.307, 0.316, 0.338, 0.329, 0.354, 0.368, 0.378, 0.377, 0.379},
