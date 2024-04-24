@@ -1,6 +1,6 @@
 
 // 5 Rouge puis 5 Bleu
-const float testData[10][DATA_ROW][DATA_COL] = 
+const float testData[10][48][13] = 
 {
   
   // RED
